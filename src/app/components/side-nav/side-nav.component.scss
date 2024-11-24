@@ -1,0 +1,26 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.main-sidenav-content {
+  display: flex;
+  height: 100%;
+
+
+}
+
+.main-sidenav {
+  padding: 20px;
+}
+
+.trigger-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  margin: 20px;
+
+}
+
