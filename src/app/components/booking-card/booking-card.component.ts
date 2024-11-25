@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { Booking } from '../../interfaces/booking.type';
 
 @Component({
   selector: 'app-booking-card',
@@ -11,4 +12,5 @@ import {MatCardModule} from '@angular/material/card';
 })
 export class BookingCardComponent {
 
+  bookingInformation = input.required<Booking>()
 }
