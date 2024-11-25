@@ -6,21 +6,29 @@
 
 .main-sidenav-content {
   display: flex;
+  flex-direction: column;
   height: 100%;
-
-
+  .toolbar{
+    .logo{
+      font-size: large;
+      strong{
+        color:palevioletred
+      }
+    }
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .main-sidenav {
-  padding: 20px;
-}
-
-.trigger-button{
-  position: absolute;
-  top: 0;
-  right: 0;
-  float: right;
-  margin: 20px;
-
+  background-color: pink;
+  min-width:  250px;
+  .menu-sidebar {
+    margin-top: 10%;
+  }
 }
 
